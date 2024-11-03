@@ -8,6 +8,7 @@
 
 :root{
   --btn-color: #ffb110;
+  --blue-color: #9b82ff;
 }
 
 .navbar-brand{
@@ -36,7 +37,14 @@ h1.display-3{
     height: 20px;
     border: none;
     outline: none;
-    background-color: #9b82ff;
+    background-color: var(--blue-color);
     border-radius: 15px;
   }
+  span{
+    color: var(--blue-color);
+  }
+}
+.img-width{
+  width: 90%;
+  margin-inline: 5%;
 }
