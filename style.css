@@ -25,3 +25,18 @@
 .rounded-pill{
   background-color: var(--btn-color);
 }
+
+h1.display-3{
+  background-position: left;
+  font-weight: 450;
+  line-height: 60px;
+  border-radius: 15px;
+  & button{
+    width: 100px;
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color: #9b82ff;
+    border-radius: 15px;
+  }
+}
