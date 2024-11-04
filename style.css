@@ -66,3 +66,9 @@ h1.display-3{
     color: var(--blue-color);
   }
 }
+.card{
+  text-align: center; !important
+}
+#chng-color{
+  background-color: #bbacf6;
+}
